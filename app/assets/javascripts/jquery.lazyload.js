@@ -95,6 +95,11 @@
                 }
             }
 
+            /* If data-original is "null" - return. */
+            if ($self.attr("data-" + settings.data_attribute) == "null") {
+                return;
+            }
+
             /* When appear is triggered load original image. */
             $self.one("appear", function() {
                 if (!this.loaded) {
