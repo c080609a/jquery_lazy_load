@@ -1,0 +1,15 @@
+/*  Ссылка, которая содержит lazy-картинку, оснащается loading.gif прелоадером
+    А сама lazy-картинка делается max-width: 100%; по ширине.
+*/
+
+a.lazy-image-wrapper {
+  display: inline-block;
+  background: rgba(25,25,25,0.01) url(image_path('loading.gif')) no-repeat 50% 50% !important;
+  outline: none;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+}
