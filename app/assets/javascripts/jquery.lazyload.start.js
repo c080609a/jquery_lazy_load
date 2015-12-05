@@ -1,5 +1,5 @@
 var fLazyStart = function () {
-    $("img.lazy").lazyload({
+    $(".lazy-image-wrapper img").lazyload({
         effect : "fadeIn"//,
         // event: "scrollstop"
     });

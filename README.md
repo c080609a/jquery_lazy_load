@@ -1,5 +1,6 @@
 # JqueryLazyLoad
 
+[![Gem Version](https://badge.fury.io/rb/jquery_lazy_load.svg)](http://badge.fury.io/rb/jquery_lazy_load)
 [![Build Status](https://travis-ci.org/c080609a/jquery_lazy_load.svg?branch=master)](https://travis-ci.org/c080609a/jquery_lazy_load)
 
 ## Installation
@@ -35,7 +36,7 @@ And add this line into `application.scss`:
 Gem functionality applies to code snippets like this:
 
     <a title="TITLE" class="lazy-image-wrapper" href="HREF">
-        <img alt="ALT" class="lazy" data-original="800x600_photo.jpg" src="thumb_photo.jpg">
+        <img alt="ALT" data-original="image800x600.jpg" src="transparent800x600.gif">
     </a>
 
 ## Development
