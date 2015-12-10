@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["C80609A"]
   spec.email         = ["c080609a@gmail.com"]
 
-  spec.summary       = "simple jquery lazy load gem and some additions"
-  spec.description   = 'nuff said'
+  spec.summary       = "patched jquery lazy load gem"
+  spec.description   = 'simple jquery lazy load gem with some additions and modifications'
   spec.homepage      = "https://github.com/c080609a/jquery_lazy_load"
   spec.license       = "MIT"
 

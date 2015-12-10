@@ -88,12 +88,13 @@
 
             self.loaded = false;
 
+            /* disable placeholder (square 1x1 placeholder causes layout jumps), I use holder.js */
             /* If no src attribute given use data:uri. */
-            if ($self.attr("src") === undefined || $self.attr("src") === false) {
+            /*if ($self.attr("src") === undefined || $self.attr("src") === false) {
                 if ($self.is("img")) {
                     $self.attr("src", settings.placeholder);
                 }
-            }
+            }*/
 
             /* If data-original is "null" - return. */
             if ($self.attr("data-" + settings.data_attribute) == "null") {
