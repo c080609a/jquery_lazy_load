@@ -3,6 +3,7 @@ var fLazyStart = function () {
         effect : "fadeIn",
         threshold : 50
     });
+    $(window).scroll();
 };
 
 $(function() {
