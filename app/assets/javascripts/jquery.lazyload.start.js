@@ -1,7 +1,7 @@
 var fLazyStart = function () {
     $(".lazy-image-wrapper img").lazyload({
-        effect : "fadeIn"//,
-        // event: "scrollstop"
+        effect : "fadeIn",
+        threshold : 50
     });
 };
 
