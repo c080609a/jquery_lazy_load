@@ -3,6 +3,16 @@
 [![Gem Version](https://badge.fury.io/rb/jquery_lazy_load.svg)](http://badge.fury.io/rb/jquery_lazy_load)
 [![Build Status](https://travis-ci.org/c080609a/jquery_lazy_load.svg?branch=master)](https://travis-ci.org/c080609a/jquery_lazy_load)
 
+The applied usage of the Jquery LazyImage plugin.
+Block container with lazy `<img>` inside has transparent background
+and animated loader.gif placed in its center.
+User sees loader.gif til the original image is loaded.
+It's supposed that the placeholder given by the
+src attribute of the lazy `<img>` is fully transparent gif which width
+and height are equivalented to width and height of original image
+(to avoid jumping layout).
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
