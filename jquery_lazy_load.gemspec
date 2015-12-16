@@ -10,7 +10,15 @@ Gem::Specification.new do |spec|
   spec.email         = ["c080609a@gmail.com"]
 
   spec.summary       = "patched jquery lazy load gem"
-  spec.description   = 'simple jquery lazy load gem with some additions and modifications'
+  spec.description   = "The applied usage of the Jquery LazyImage plugin.
+Block container with lazy <img> inside has transparent background
+and animated loader.gif placed in its center.
+User sees loader.gif til the original image is loaded.
+It's supposed that the placeholder given by the
+src attribute of the lazy <img> is fully transparent gif which width
+and height are equivalented to width and height of original image
+(to avoid jumping layout).
+You can find the sample of described code snippet on the gem`s homepage."
   spec.homepage      = "https://github.com/c080609a/jquery_lazy_load"
   spec.license       = "MIT"
 
